@@ -1,6 +1,6 @@
 def cipher(text, shift, encrypt=True):
     
-    “”“
+    """
     Function Description:
     ----------
     The Caesar cipher is one of the simplest and most widely known encryption techniques. In short, each       letter is replaced by a letter some fixed number of positions down the alphabet.	
@@ -26,7 +26,7 @@ def cipher(text, shift, encrypt=True):
     bdZrZq
     >>> cipher("bdZrZq",1, False)
     ceasar
-    ”“”
+    """
     
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
     new_text = ''
