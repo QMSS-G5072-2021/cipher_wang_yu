@@ -19,10 +19,3 @@ pytest = "^6.2.5"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
- ...
- readme = "README.md"
- documentation = 'https://cipher_yw3760.readthedocs.io'
- homepage = "https://github.com/tbrambor/cipher_yw3760"
- repository = "https://github.com/tbrambor/cipher_yw3760"
