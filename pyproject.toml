@@ -5,6 +5,9 @@ description = "an example python package written by Yu Wang for MDS Fall 2021"
 authors = ["YU WANG"]
 license = "MIT"
 readme = "README.md"
+documentation = 'https://cipher_yw3760.readthedocs.io'
+homepage = "https://github.com/nicolewang97/cipher_yw3760"
+repository = "https://github.com/nicolewang97/cipher_yw3760"
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -19,3 +22,4 @@ pytest = "^6.2.5"
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
+
